@@ -1,0 +1,31 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.1.6)  10 JAN 2021 11:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**template.tex
+(./template.tex
+LaTeX2e <2018-12-01>
+
+! LaTeX Error: File `bjfuLabreport.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.3 \bjfuLecturename
+                    {课程名称}^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 10 strings out of 492922
+ 142 string characters out of 6136752
+ 64272 words of memory out of 5000000
+ 4157 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 10i,0n,8p,60b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

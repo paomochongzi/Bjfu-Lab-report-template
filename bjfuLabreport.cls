@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{eess}[2020/01/09 A template for bjfu bachelor thesis]
+\ProvidesClass{bjfuLabreport}[2020/01/09 A template for bjfu bachelor thesis]
 \LoadClass[UTF8]{ctexart}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -36,9 +36,9 @@
 %设置列表格式
 \RequirePackage{enumitem}
 %调列表的条目间距
-\setenumerate[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
-\setitemize[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
-\setdescription{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setenumerate[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt,itemindent=\parindent,listparindent=\parindent}
+\setitemize[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt,itemindent=\parindent,listparindent=\parindent}
+\setdescription{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt,,itemindent=\parindent,listparindent=\parindent}
 %三线表
 \RequirePackage{booktabs}
 
@@ -126,7 +126,7 @@
 
 %%%%
 %课程名称
-\newcommand{\Lecturename}[1]{\def\lecturenameString{#1}}
+\newcommand{\bjfuLecturename}[1]{\def\lecturenameString{#1}}
 % 实验名称
 \newcommand{\bjfuTitle}[1]{\def\bjfuTitleFirstLineString{#1}}
 % 班级
@@ -152,7 +152,7 @@
 
 }
 % 标题页
-\newcommand{\makeBjfuTitlePage}{
+\newcommand{\makebjfuTitlePage}{
 %扉页，无header和footer
 %这一页的页边距和其他页面不一样，为上边距为25.4mm，下边距为25.4mm，左边距为31.75mm，右边距为31.75mm
 \newgeometry{left=31.75mm,right=31.75mm,top=25.4mm,bottom=25.4mm}

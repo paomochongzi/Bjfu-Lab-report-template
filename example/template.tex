@@ -1,0 +1,53 @@
+\documentclass{bjfuLabreport}
+%课程名称
+\bjfuLecturename{课程名称}
+%标题
+\bjfuTitle{实验标题}
+%班级
+\bjfuClass{班级}
+%组员姓名和学号
+\bjfuAuthors{杨杨杨}{杨杨杨}{杨杨杨}{杨杨杨}{杨杨杨}
+\bjfuIds{1234561}{1234562}{1234563}{1234564}{1234565}
+
+\begin{document}
+	\makebjfuTitlePage
+	\section{Section}
+		\subsection{Subsection}
+			\subsubsection{SubSubsection}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width = 8cm]{../files/header.png}
+		\caption{这是一张啥也没有的图}
+		\label{nothing}
+	\end{figure}
+	
+	\begin{table}[h]
+		\centering
+		\caption{我是一张没有灵魂的表}
+		\begin{tabular}{ccccc} 
+			\toprule
+			我是一个没有灵魂的表头\\
+			\midrule
+			nothing& nothing& nothing& nothing& nothing\\
+			nothing& nothing& nothing& nothing& nothing\\
+			nothing& nothing& nothing& nothing& nothing\\
+			\bottomrule
+		\end{tabular}
+		\label{anything}
+	\end{table}
+
+	由\autoref{nothing}和\autoref{anything}可以看出：该睡觉啦！
+	
+	\begin{enumerate}
+		\item 我想让这一行显示一下换行效果，所以可能要多说几句废话。哎呀，好像还不够长，再来两句废话吧，我感觉说这么多也大概够了吧。
+		\item 我想让这一行显示一下换行效果，所以可能要多说几句废话。哎呀，好像还不够长，再来两句废话吧，我感觉说这么多也大概够了吧。\cite{VerdouwVan-Echteld-22}
+	\end{enumerate}
+
+
+	\begin{itemize}
+		\item 我想让这一行显示一下换行效果，所以可能要多说几句废话。哎呀，好像还不够长，再来两句废话吧，我感觉说这么多也大概够了吧。
+		\item 我想让这一行显示一下换行效果，所以可能要多说几句废话。哎呀，好像还不够长，再来两句废话吧，我感觉说这么多也大概够了吧。
+	\end{itemize}
+	\bibliography{ref}
+\end{document}
